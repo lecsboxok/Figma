@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <title>Hamburgueria</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Logo.png">
 </head>
 <body>
-    <header class="cabecalho">
+    <header id="cabecalho">
         <nav class="cabecalho_menu">
             <div class="cabecalho_img">
                 <a class="cabecalho_img" href=""><img src="img/Logo.png" alt="Logo Mr.Bun"></a>
             </div>
-            <div class="cabecalho_menu_item">
+            <div class="cabecalho_menu_itens">
                 <a class="cabecalho_menu_item" href="">HOME</a>
                 <a class="cabecalho_menu_item" href="">SOBRE NÓS</a>
                 <a class="cabecalho_menu_item" href="">CARDÁPIO</a>
                 <a class="cabecalho_menu_item" href="">CONTATO</a>
             </div>
-            <div class="cabecalho_menu_reserv">
-                <a class="cabecalho_menu_reserva" href="">RESERVA</a>
-            </div>
+            <a href="">
+                <div class="cabecalho_menu_reserv">
+                    <a class="cabecalho_menu_reserva cabecalho_menu_itens" href="">RESERVA</a>
+                </div>
+            </a>
         </nav>
     </header>
     <main class="conteudo">
         <section class="conteudo_principal">
-            <img class="conteudo_principal_img" src="img/ImagemPrincipal.jpg" alt="Hambúrguer e fritas">
+            <div class="conteudo_principal_img">
+                <img src="img/ImagemPrincipal.jpg" alt="Hambúrguer e fritas" class="fritas">
+            </div>
             <div>
                 <div>
                     <h1>O MELHOR PÃO CASEIRO DA CIDADE</h1>
@@ -34,33 +39,33 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="sobreNos">
             <img src="img/FazendoPao.jpg" alt="Massa de pão">
-            <div>
-                <h3>Sobre Nós</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Eu leo purus eu gravida. Volutpat non pretium tempus felis. Quam gravida lacus a curabitur lectus donec condimentum ullamcorper aenean.</p>
+            <div class="texto-sobreNos">
+                <h3 class="titulo">Sobre Nós</h3>
+                <p class="texto text-sobre">Lorem ipsum dolor sit amet consectetur. Eu leo purus eu gravida. Volutpat non pretium tempus felis. Quam gravida lacus a curabitur lectus donec condimentum ullamcorper aenean.</p>
             </div>
+        </section>
+        <section class="restaurante">
+            <div class="texto-restaurante">
+                <h3 class="titulo">Restaurante</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur. Viverra non dis morbi nunc et varius augue ac sem.</p>
+            </div>
+            <img src="img/Property 1=Default.jpg" alt="" class="restaurante_img">
         </section>
         <section>
             <div>
-                <h3>Restaurante</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Viverra non dis morbi nunc et varius augue ac sem.</p>
-            </div>
-            <img src="img/Property 1=Default.jpg" alt="">
-        </section>
-        <section>
-            <div>
-                <h3>Cardápio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Montes id duis elementum risus velit leo. Convallis pulvinar in sed quisque praesent enim ac. Elementum ipsum mi suspendisse aliquet lobortis amet non pellentesque at. At sit convallis laoreet purus dictum amet.</p>
+                <h3 class="titulo">Cardápio</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur. Montes id duis elementum risus velit leo. Convallis pulvinar in sed quisque praesent enim ac. Elementum ipsum mi suspendisse aliquet lobortis amet non pellentesque at. At sit convallis laoreet purus dictum amet.</p>
             </div>
             <div>
 
             </div>
         </section>
-        <section>
+        <section class="reserva">
             <div>
-                <h3>Reserva</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Elit diam tempus fermentum diam consectetur sed felis fermentum.</p>
+                <h3 class="titulo">Reserva</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur. Elit diam tempus fermentum diam consectetur sed felis fermentum.</p>
             </div>
             <div>
                 <form action="">

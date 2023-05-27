@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Source+Sans+Pro:wght@300;600&family=Trirong:wght@900&display=swap');
-
+/* RESET */
 *{
     border: 0;
     margin: 0;
@@ -11,36 +10,105 @@ a{
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
+@font-face {
+    font-family: Source;
+    src: url(Assets/SourceSansPro-Regular.ttf);
 }
 
-.cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+@font-face {
+    font-family: SourceBlack;
+    src: url(Assets/SourceSansPro-Black.ttf);
 }
 
-.cabecalho_img{
-    margin-right: 50px;
+@font-face {
+    font-family: Trirong;
+    src: url(Assets/Trirong-Black.ttf);
 }
 
+@font-face {
+    font-family: LuckiestGuy;
+    src: url(Assets/LuckiestGuy-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CABEÇALHO */
 .cabecalho_menu{
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
 }
 
-.cabecalho_menu_item{
+.cabecalho_menu_itens{
+    font: 400 28px 'SourceBlack', sans-serif;
+}
+
+.cabecalho_menu_item {
+    color: #000;
+    padding: 28px;
+}
+
+.cabecalho_menu_reserva {
+    color: #8C1C03;
+}
+
+.cabecalho_menu_reserv {
+    background: rgba(140, 28, 3, 0.12);
+    border: 3px solid #8C1C03;
+    border-radius: 50px;
+    height: 77px;
+    width: 220px;
+    border-radius: 50px;
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
-.conteudo_pricipal_img{
-    position: absolute;
+/* CONTEÚDO PRINCIPAL */
+.fritas {
+    width: 100%;
+}
 
+/* SOBRE NÓS */
+.titulo {
+    font: 400 50px 'LuckiestGuy', cursive;
+    color: #F27830;
+}
+
+.texto {
+    font: 400 28px 'Source', sans-serif;
+}
+
+.sobreNos, .restaurante, .reserva {
+    background: #F2F2F2;
+}
+
+.sobreNos {
+    display: flex;
+    align-items: flex-start;
+}
+
+.texto-sobreNos {
+    margin: 144px 80px;
+}
+
+.text-sobre {
+    margin-top: 44px;
+}
+
+.restaurante {
+    display: flex;
+    align-items: start;
+}
+
+.texto-restaurante {
+    margin: 123px 80px;
+}
+
+.restaurante_img {
+    margin: 80px 80px 80px 10px;
 }
