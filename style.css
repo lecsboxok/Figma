@@ -112,3 +112,8 @@ html {
 .restaurante_img {
     margin: 80px 80px 80px 10px;
 }
+
+/* CARDÁPIO */
+.cardapio {
+    padding: 80px;
+}
