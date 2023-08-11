@@ -83,11 +83,11 @@ html {
     font: 400 28px 'Source', sans-serif;
 }
 
-.sobreNos, .restaurante, .reserva {
+#sobreNos, .restaurante, #reserva {
     background: #F2F2F2;
 }
 
-.sobreNos {
+#sobreNos {
     display: flex;
     align-items: flex-start;
 }
@@ -116,4 +116,26 @@ html {
 /* CARDÁPIO */
 .cardapio {
     padding: 80px;
+}
+
+/* RESERVA */
+#reserva {
+    text-align: center;
+}
+
+.reserva {
+    padding-top: 150px;
+}
+
+/* RODAPÉ */
+.cor {
+    color: #000;
+    margin-right: 70px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 120px;
 }

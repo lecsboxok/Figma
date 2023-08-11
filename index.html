@@ -13,20 +13,20 @@
                 <a class="cabecalho_img" href=""><img src="img/Logo.png" alt="Logo Mr.Bun"></a>
             </div>
             <div class="cabecalho_menu_itens">
-                <a class="cabecalho_menu_item" href="">HOME</a>
-                <a class="cabecalho_menu_item" href="">SOBRE NÓS</a>
-                <a class="cabecalho_menu_item" href="">CARDÁPIO</a>
+                <a class="cabecalho_menu_item" href="#home">HOME</a>
+                <a class="cabecalho_menu_item" href="#sobreNos">SOBRE NÓS</a>
+                <a class="cabecalho_menu_item" href="#cardapio">CARDÁPIO</a>
                 <a class="cabecalho_menu_item" href="">CONTATO</a>
             </div>
             <a href="">
                 <div class="cabecalho_menu_reserv">
-                    <a class="cabecalho_menu_reserva cabecalho_menu_itens" href="">RESERVA</a>
+                    <a class="cabecalho_menu_reserva cabecalho_menu_itens" href="#reserva">RESERVA</a>
                 </div>
             </a>
         </nav>
     </header>
     <main class="conteudo">
-        <section class="conteudo_principal">
+        <section id="home">
             <div class="conteudo_principal_img">
                 <img src="img/ImagemPrincipal.jpg" alt="Hambúrguer e fritas" class="fritas">
             </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </section>
-        <section class="sobreNos">
+        <section id="sobreNos">
             <img src="img/FazendoPao.jpg" alt="Massa de pão">
             <div class="texto-sobreNos">
                 <h3 class="titulo">Sobre Nós</h3>
@@ -53,7 +53,7 @@
             </div>
             <img src="img/Property 1=Default.jpg" alt="" class="restaurante_img">
         </section>
-        <section>
+        <section id="cardapio">
             <div class="cardapio">
                 <div class="cardapioTexto">
                     <h3 class="titulo">Cardápio</h3>
@@ -64,20 +64,32 @@
                 </div>
             </div>
         </section>
-        <section class="reserva">
-            <div>
+        <section id="reserva">
+            <div class="reserva">
                 <h3 class="titulo">Reserva</h3>
                 <p class="texto">Lorem ipsum dolor sit amet consectetur. Elit diam tempus fermentum diam consectetur sed felis fermentum.</p>
             </div>
-            <div>
-                <form action="">
+            <div id="formulario">
+                <form action="" class="formulario">
 
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer id="contato">
+        <div class="navegacao">
+            <div>
+                <a href="" class="cabecalho_menu_itens cor">HOME</a>
+                <a href="" class="cabecalho_menu_itens cor">SOBRE NÓS</a>
+            </div>
+            <div>
+                <img src="img/Logo1.png" alt="">
+            </div>
+            <div>
+                <a href="" class="cabecalho_menu_itens cor">CARDÁPIO</a>
+                <a href="" class="cabecalho_menu_itens cor">CONTATO</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
